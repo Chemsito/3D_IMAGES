@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Empezar a Diseñar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="welcome.html">Inicio</a></li>
+        <li><a href="empezar.html">Diseñar</a></li>
+        <li><a href="#">Comprar</a></li>
+        <li><a href="logout.php">Cerrar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="design-section">
+    <div class="container">
+      <h1>Empezar a Diseñar</h1>
+      <div class="designer">
+        <!-- Aquí se mostraría el diseño 3D interactivo -->
+      </div>
+      <div class="options">
+        <h2>Falda Recta</h2>
+        <section class="design-section">
+          <div class="container">
+            <h1></h1>
+            <div class="designer">
+              <iframe src="https://stlviewer.kwebpia.net/?state=%7B%22ids%22:%5B%221-kTS77fmnjo-7r-SsQAfbw9IUbBDsDoB%22%5D,%22action%22:%22open%22,%22userId%22:%22117981570833273016034%22,%22resourceKeys%22:%7B%7D%7D" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="options">
+              <!-- Opciones de personalización -->
+            </div>
+          </div>
+        </section>
+        <p>Precio: $<span id="current-price">35</span></p>
+        <label for="color-select">Color:</label>
+        <select id="color-select">
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="verde">Verde</option>
+          <option value="negro">Negro</option>
+          <option value="blanco">Blanco</option>
+          <option value="amarillo">Amarillo</option>
+          <option value="rosado">Rosado</option>
+          <option value="morado">Morado</option>
+          <option value="gris">Gris</option>
+          <option value="naranja">Naranja</option>
+          <option value="marrón">Marrón</option>
+          <option value="plateado">Plateado</option>
+          <option value="dorado">Dorado</option>
+        </select>
+        <label for="size-select">Talla:</label>
+        <select id="size-select">
+          <option value="xs">XS</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+          <option value="xxl">XXL</option>
+          <option value="xxxl">XXXL</option>
+          <option value="xxxxl">XXXXL</option>
+        </select>
+        <!-- Otras opciones de personalización -->
+        <button id="update-price">Actualizar Precio</button>
+        <button id="add-to-cart">Añadir al Carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; 2023 Creating on Venus</p>
+  </footer>
+</body>
+</html>

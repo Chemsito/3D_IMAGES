@@ -1,0 +1,355 @@
+/* Estilos generales */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+p {
+  color: #ccc;
+}
+
+a {
+  color: #00eaff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de encabezado */
+
+header {
+  background-color: #000;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+/* Estilos de formulario */
+
+form {
+  margin-top: 20px;
+}
+
+form input, form button {
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+form input:focus, form button:focus {
+  outline: none;
+  border-color: #00eaff;
+}
+
+/* Estilos de sección de bienvenida */
+
+.welcome-section {
+  background-color: #000;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.design-section, .shop-section {
+  margin-bottom: 40px;
+}
+
+.design-section h2, .shop-section h2 {
+  color: #00eaff;
+}
+
+.btn-design, .btn-shop {
+  display: inline-block;
+  background-color: #00eaff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-design:hover, .btn-shop:hover {
+  background-color: #006aff;
+}
+
+/* Estilos de sección de comentarios */
+
+.comments-section {
+  background-color: #222;
+  padding: 40px 0;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment h3 {
+  margin: 0;
+}
+
+.comment p {
+  color: #ccc;
+}
+
+/* Estilos de pie de página */
+
+footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Estilos adicionales */
+
+.btn-login {
+  display: inline-block;
+  background-color: #00eaff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #006aff;
+}
+
+.password-container {
+  position: relative;
+}
+
+#password-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#password-toggle:hover {
+  color: #fff;
+}
+
+.fa-eye, .fa-eye-slash {
+  font-size: 16px;
+}
+/* Estilos generales */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos de la navegación */
+
+header {
+  background-color: #111;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
+/* Estilos de la sección de diseño */
+
+.design-section {
+  background-color: #111;
+  padding: 50px 0;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category {
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.category:hover {
+  background-color: #555;
+}
+
+/* Estilos del footer */
+
+footer {
+  background-color: #111;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.category {
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Agrega espacio separador en la parte inferior */
+}
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #00eaff;
+}
+
+/* Estilos de la navegación */
+header {
+  background-color: #000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+/* Estilos de la sección de diseño */
+.design-section {
+  background-color: #000;
+  padding: 40px 0;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: #666;
+}
+
+.category a {
+  color: #fff;
+  text-align: center;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
